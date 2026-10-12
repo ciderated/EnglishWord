@@ -1,0 +1,14 @@
+{
+  "name": "teum-englishword",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Korean-friendly static English vocabulary flashcards",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node tests/smoke.cjs",
+    "data:convert": "node scripts/convert.cjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  }
+}

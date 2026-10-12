@@ -1,0 +1,1 @@
+SheetJS Community Edition 0.20.3, distributed by npm package @e965/xlsx@0.20.3 (mirror of the SheetJS CE distribution). The minified browser bundle is vendored so runtime parsing does not require a CDN. See XLSX-LICENSE.txt for its Apache-2.0 license. Source project: https://git.sheetjs.com/sheetjs/sheetjs

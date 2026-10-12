@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f3ef"><title>틈 — 하루 한 틈, 영어 단어</title><link rel="stylesheet" href="./style.css"><script defer src="./vendor/xlsx.full.min.js"></script><script defer src="./app.js"></script></head>
+<body>
+<aside class="sidebar"><a class="brand" href="#home" aria-label="틈 홈">틈<span>TEUM</span></a><p class="brand-note">하루 한 틈, 영어 단어</p><nav aria-label="메인 메뉴"><a href="#home" data-nav="home"><span>⌂</span> 홈</a><a href="#study" data-nav="study"><span>▣</span> 단어 암기</a><a href="#review" data-nav="review"><span>↻</span> 오답 노트</a><a href="#words" data-nav="words"><span>☷</span> 전체 단어</a></nav><div class="side-bottom"><span class="small-dot"></span> 나의 속도로, 꾸준하게<p>학습 기록은 이 브라우저에 저장돼요.</p><button class="text-button" id="manage">단어 데이터 관리 ↗</button></div></aside>
+<div class="workspace"><header><span id="breadcrumb">나의 학습 공간</span><span class="header-note">A LITTLE EVERY DAY <span class="avatar">나</span></span></header><main id="main" tabindex="-1"></main><footer>조금씩 쌓이는 단어, 조금씩 넓어지는 세상.</footer></div>
+<dialog id="import-dialog"><div class="dialog-head"><div><span class="eyebrow">MY WORD COLLECTION</span><h2>단어 데이터 관리</h2></div><button id="close-dialog" class="icon-button" aria-label="닫기">×</button></div><p>Excel 파일의 단어·뜻·수준 열을 선택해 불러오세요. 파일은 서버로 전송되지 않습니다.</p><label class="upload">XLS / XLSX 파일 선택<input id="file" type="file" accept=".xls,.xlsx"></label><div id="mapping"></div><p id="import-status" role="status"></p><div class="backup"><h3>학습 기록 백업</h3><p>다른 기기로 옮길 때 단어와 학습 기록을 함께 저장하세요.</p><button id="export" class="button secondary">백업 내려받기</button><label class="button secondary">백업 복원<input id="restore" type="file" accept=".json" hidden></label></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body></html>

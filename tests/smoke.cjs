@@ -1,0 +1,37 @@
+const {chromium}=require('@playwright/test');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const root=path.resolve(__dirname,'..');
+(async()=>{
+ const browser=await chromium.launch(fs.existsSync('/usr/bin/chromium')?{executablePath:'/usr/bin/chromium',args:['--no-sandbox']}:{});
+ const context=await browser.newContext({viewport:{width:1440,height:1000}});
+ const page=await context.newPage();page.setDefaultTimeout(10000);const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const base=process.env.TEST_URL||'http://127.0.0.1:8000';
+ await page.goto(base);await page.waitForFunction(()=>document.querySelector('.stat strong')?.textContent.includes('3,000'));
+ await page.screenshot({path:'/tmp/teum-desktop.png',fullPage:true});
+ console.log('PASS home: 3,000 source words');
+ await page.goto(base+'/#words');await page.selectOption('#list-level','초등');assert.match(await page.locator('.section-head').last().innerText(),/800/);
+ await page.selectOption('#list-level','중고');assert.match(await page.locator('.section-head').last().innerText(),/1,800/);
+ await page.selectOption('#list-level','전문');assert.match(await page.locator('.section-head').last().innerText(),/400/);
+ await page.selectOption('#list-level','all');await page.fill('#search','abandon');assert.equal(await page.locator('.word-row').count(),1);assert.match(await page.locator('.word-row').innerText(),/버리다/);
+ await page.fill('#search','하나의');assert.ok(await page.locator('.word-row').count()>0);console.log('PASS level filters and English/Korean search');
+ await page.goto(base+'/#study');await page.selectOption('#study-level','all');await page.click('#start-session');const learned=await page.locator('.flashcard h2').innerText();
+ await page.click('#reveal');await page.click('#wrong');
+ await page.goto(base+'/#review');assert.equal(await page.locator('.word-row').count(),1);assert.match(await page.locator('.word-row').innerText(),/오답 1회/);
+ await page.click('#review-start');assert.equal(await page.locator('.flashcard h2').innerText(),learned);await page.click('#reveal');await page.click('#correct');assert.match(await page.locator('.completion').innerText(),/1.*1개/s);
+ await page.locator('.completion a').click();assert.equal(await page.locator('.word-row').count(),0);await page.click('[data-history="true"]');assert.equal(await page.locator('.word-row').count(),1);assert.match(await page.locator('.word-row').innerText(),/기억했어요/);
+ await page.reload();await page.click('[data-history="true"]');await page.waitForSelector('.word-row');assert.match(await page.locator('.word-row').innerText(),/오답 1회/);console.log('PASS wrong → relearn → correct, lifetime wrong history and persistence');
+ await page.click('#manage');await page.setInputFiles('#file',path.join(root,'source/3000.xls'));await page.waitForSelector('#confirm-import');assert.equal(await page.locator('#map-word').inputValue(),'1');assert.equal(await page.locator('#map-meaning').inputValue(),'2');assert.equal(await page.locator('#map-level').inputValue(),'3');await page.click('#confirm-import');assert.equal(await page.locator('.word-row').count(),1);console.log('PASS real XLS import and matching-record preservation');
+ await page.click('#manage');const downloadEvent=page.waitForEvent('download');await page.click('#export');const download=await downloadEvent;const backup='/tmp/teum-test-backup.json';await download.saveAs(backup);const saved=JSON.parse(fs.readFileSync(backup));assert.equal(saved.words.length,3000);assert.equal(Object.values(saved.records)[0].status,'correct');
+ page.once('dialog',d=>d.accept());await page.setInputFiles('#restore',backup);await page.waitForFunction(()=>!document.querySelector('#import-dialog').open);console.log('PASS backup export and restore');
+ // Invalid backups are rejected before replacing records.
+ await page.click('#manage');await page.setInputFiles('#restore',{name:'invalid.json',mimeType:'application/json',buffer:Buffer.from('{"version":1,"words":[],"records":{"x":{"status":"wrong"}}}')});await page.waitForFunction(()=>document.querySelector('#import-status').textContent.includes('복원 실패'));await page.click('#close-dialog');
+ await page.setViewportSize({width:390,height:844});await page.goto(base+'/#home');await page.screenshot({path:'/tmp/teum-mobile.png',fullPage:true});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.goto(base+'/#words');await page.waitForSelector('.word-row');assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.goto(base+'/#study');await page.click('#start-session');await page.click('#reveal');assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'/tmp/teum-study-mobile.png',fullPage:true});console.log('PASS 390px mobile home, list and flashcard: no horizontal overflow');
+ await page.setViewportSize({width:320,height:740});await page.goto(base+'/#home');assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));console.log('PASS 320px mobile layout');
+ assert.deepEqual(errors,[]);console.log('PASS no browser runtime errors');
+ const denied=await browser.newContext();await denied.addInitScript(()=>{Storage.prototype.setItem=function(){throw new DOMException('denied','SecurityError');};});const dp=await denied.newPage();await dp.goto(base+'/#study');await dp.waitForSelector('.storage-warning');await dp.click('#start-session');await dp.click('#reveal');await dp.click('#wrong');await dp.goto(base+'/#review');await dp.waitForSelector('.word-row');console.log('PASS unavailable storage: warning and in-memory learning');
+ await browser.close();
+})().catch(e=>{console.error(e);process.exitCode=1;});

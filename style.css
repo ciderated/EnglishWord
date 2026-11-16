@@ -76,21 +76,24 @@
 .cloze-toolbar .button{gap:0}
 #cloze-progress{font-size:12px;color:var(--listening-muted);font-variant-numeric:tabular-nums}
 #cloze-hint-status,#cloze-save-status{font-size:12px;color:var(--listening-muted);line-height:1.8;margin:8px 0 16px}
-.cloze-passage{padding:22px;border:1px solid var(--line);border-radius:12px;background:white;overflow-wrap:anywhere}
-.cloze-passage p{font-size:16px;line-height:2.8;white-space:pre-wrap;margin:0 0 22px}
-.cloze-passage p:last-child{margin-bottom:0}
-.cloze-slot{display:inline-flex;flex-direction:column;vertical-align:middle;position:relative;max-width:100%;margin:12px 3px 5px;line-height:1.4}
-.cloze-number{font-size:10px;color:var(--listening-muted);margin-bottom:3px;font-variant-numeric:tabular-nums}
-.cloze-input{max-width:100%;min-height:44px;padding:8px 10px;border-color:#b8afcf;border-radius:6px;color:var(--ink);font-size:16px;line-height:1.5;caret-color:var(--listening-purple)}
-.cloze-input:focus{background:#f6f3ff}
-.cloze-prefix{font-size:12px;color:var(--listening-purple);white-space:normal;overflow-wrap:anywhere;max-width:17ch}
-.cloze-feedback{font-family:system-ui,sans-serif;font-size:10px;color:var(--listening-muted);white-space:normal}
-.cloze-input.is-correct{border-color:#46775e;background:#f2f8f3}
-.cloze-input.is-wrong{border-color:#a03434;background:#fff5f4}
-.cloze-input.case-warning{border-color:#956018;background:#fff8e9}
+#cloze-key-help{font-size:12px;color:var(--listening-muted);line-height:1.8;margin:0 0 14px}
+.cloze-passage{position:relative;padding:24px;border:1px solid var(--line);border-radius:12px;background:white;font-size:18px;overflow-wrap:anywhere}
+.cloze-passage p{font-size:inherit;line-height:3.15;white-space:pre-wrap;margin:0 0 24px}
+.cloze-passage p:last-of-type{margin-bottom:0}
+.cloze-proper{font-weight:600}
+.cloze-blank{display:inline-block;position:relative;vertical-align:baseline;width:calc(var(--blank-ch)*1ch + .5ch);max-width:100%;min-height:1.9em;padding:0 .25ch;margin:0 .12ch .25em;border-bottom:1px solid #797180;line-height:1.85;cursor:text;scroll-margin-top:150px;scroll-margin-bottom:130px}
+.cloze-answer{display:block;overflow:hidden;white-space:pre;text-overflow:ellipsis}
+.cloze-blank.is-active .cloze-answer{visibility:hidden}
+.cloze-editor{position:absolute;z-index:1;min-width:0;min-height:0;padding:0 .25ch;border:0;border-bottom:2px solid var(--listening-purple);border-radius:0;background:#f5f2ff;color:var(--ink);font:inherit;line-height:1.85;caret-color:var(--listening-purple);scroll-margin-top:150px;scroll-margin-bottom:130px}
+.cloze-editor:focus-visible{outline:none}
+.cloze-prefix{position:absolute;top:100%;left:0;max-width:24ch;white-space:nowrap;font-size:11px;line-height:1.5;color:var(--listening-purple);pointer-events:none}
+.cloze-blank.is-correct{border-bottom-color:#46775e}
+.cloze-blank.is-wrong{border-bottom:2px solid #a03434}
+.cloze-blank.case-warning{border-bottom:2px dashed #956018}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
 .cloze-results{margin:24px 0;padding-top:22px;border-top:1px solid var(--line)}
 .cloze-results>p{font-size:13px;color:var(--listening-muted)}
 .cloze-corrections{list-style:none;margin:18px 0 0;padding:0}
 .cloze-corrections li{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px 18px;padding:10px 0;border-bottom:1px solid var(--line);font-size:13px;overflow-wrap:anywhere}
 .cloze-corrections b{font-weight:500}
-@media(max-width:650px){.dictation-modes label{padding:10px 12px;font-size:13px}.cloze-passage{padding:16px}.cloze-passage p{font-size:15px}.cloze-toolbar{top:0;gap:8px}.cloze-toolbar .button{padding:10px 12px}.cloze-corrections li{display:block}.cloze-corrections span{display:block;margin-bottom:5px}}
+@media(max-width:650px){.dictation-modes label{padding:10px 12px;font-size:13px}.cloze-passage{padding:16px}.cloze-passage{font-size:17px}.cloze-toolbar{top:0;gap:8px}.cloze-toolbar .button{padding:10px 12px}.cloze-corrections li{display:block}.cloze-corrections span{display:block;margin-bottom:5px}}

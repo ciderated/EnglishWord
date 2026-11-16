@@ -8,6 +8,7 @@ const path=require('node:path');
 const origin='https://learnenglishteens.britishcouncil.org';
 const root=origin+'/skills/listening';
 const levels=['A1','A2','B1','B2','C1'];
+const properNounsIndex=require('../data/proper-nouns.json');
 function allowed(url){const u=new URL(url);if(u.origin!==origin)throw Error(`Unexpected source host: ${u.hostname}`);return u.href;}
 function get(url,head=false){return execFileSync('curl',['--fail','--silent','--show-error','--location','--max-time','45',...(head?['--head']:[]),allowed(url)],{encoding:'utf8',maxBuffer:8*1024*1024});}
 async function parse(page,html,url){return page.evaluate(({html,url})=>{
@@ -40,7 +41,8 @@ async function sync(destination){
     if(!doc.title||!audio||!doc.transcript.length)throw Error(`Missing title/audio/transcript: ${url}`);
     const headers=get(audio,true);if(!/^content-type:\s*audio\//im.test(headers))throw Error(`Unexpected audio response: ${audio}`);
     const id=level.toLowerCase()+'-'+new URL(url).pathname.split('/').filter(Boolean).at(-1);
-    lessons.push({id,level,title:doc.title,source:url,audio,transcript:doc.transcript});console.log(`${level}: ${doc.title}`);
+    if(!Object.hasOwn(properNounsIndex,id)||!Array.isArray(properNounsIndex[id])||!properNounsIndex[id].every(name=>typeof name==='string'&&name.length&&doc.transcript.join('\n').includes(name)))throw Error(`Review proper nouns for ${id} in data/proper-nouns.json before importing.`);
+    lessons.push({id,level,title:doc.title,source:url,audio,transcript:doc.transcript,properNouns:properNounsIndex[id]});console.log(`${level}: ${doc.title}`);
    }
   }
   if(!lessons.length)throw Error('No source categories found; catalog was not changed.');

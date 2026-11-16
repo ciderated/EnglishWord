@@ -38,23 +38,33 @@
   const correct=Boolean(a)&&(an!==null&&en!==null?an===en:sameText);
   return {correct,unanswered:!String(answer).trim(),caseWarning:correct&&sameText&&a!==e};
  }
- function generate(transcript){
-  const candidates=[];let serial=0;
+ function generate(transcript,properNouns=[]){
+  const names=[...new Set(properNouns)].sort(),candidates=[],legacyCandidates=[];let serial=0;
+  const escaped=text=>text.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  const namePatterns=names.map(name=>new RegExp(`(?<![\\p{L}\\p{N}])${escaped(name).replace(/\s+/g,'\\s+')}(?:['’]s)?(?![\\p{L}\\p{N}])`,'gu'));
   const paragraphs=transcript.map(paragraph=>{
    const parts=[];let offset=0;
-   const labelRanges=[...paragraph.matchAll(/^[ \t]*[\p{L}\p{N}][\p{L}\p{N} .’'()\-]{0,49}:[ \t]*/gmu)].map(m=>[m.index,m.index+m[0].length]);
+   const labels=[...paragraph.matchAll(/^[ \t]*([\p{L}\p{N}][\p{L}\p{N} .’'()\-]{0,49}):[ \t]*/gmu)];
+   const labelRanges=labels.filter(m=>!/^(?:Tip|Number)\s/u.test(m[1])).map(m=>[m.index,m.index+m[0].length]);
+   const legacyLabels=labels.map(m=>[m.index,m.index+m[0].length]);
+   const properRanges=namePatterns.flatMap(pattern=>[...paragraph.matchAll(pattern)].map(m=>[m.index,m.index+m[0].length]));
+   const within=(ranges,start,end)=>ranges.some(([a,b])=>start>=a&&end<=b);
    const pattern=/[\p{L}\p{N}][\p{L}\p{M}\p{N}]*(?:['’‘\u2010-\u2015-][\p{L}\p{N}][\p{L}\p{M}\p{N}]*)*/gu;
    for(const match of paragraph.matchAll(pattern)){
     if(match.index>offset)parts.push({text:paragraph.slice(offset,match.index)});
-    const part={text:match[0]};parts.push(part);
-    if(!labelRanges.some(([start,end])=>match.index>=start&&match.index<end)){part.candidate=serial++;candidates.push(part);}
-    offset=match.index+match[0].length;
+    const part={text:match[0]};parts.push(part);const end=match.index+match[0].length;
+    if(!within(legacyLabels,match.index,end)){part.legacyCandidate=serial++;legacyCandidates.push(part);}
+    if(within(labelRanges,match.index,end))part.speaker=true;
+    if(within(properRanges,match.index,end))part.proper=true;
+    if(!within(labelRanges,match.index,end)&&!part.proper)candidates.push(part);
+    offset=end;
    }
    if(offset<paragraph.length)parts.push({text:paragraph.slice(offset)});return parts;
   });
-  const chosen=candidates.filter(p=>p.candidate%3===2);if(!chosen.length&&candidates.length)chosen.push(candidates.at(-1));
-  const answers=[];chosen.forEach(part=>{part.blank=answers.length;answers.push(part.text);});
-  return {paragraphs,answers,signature:'1:'+JSON.stringify(transcript)};
+  const legacy=legacyCandidates.filter(p=>p.legacyCandidate%3===2);if(!legacy.length&&legacyCandidates.length)legacy.push(legacyCandidates.at(-1));
+  legacy.forEach((part,i)=>part.legacyBlank=i);
+  const answers=[],legacyIndices=[];candidates.forEach(part=>{part.blank=answers.length;answers.push(part.text);legacyIndices.push(part.legacyBlank??null);});
+  return {paragraphs,answers,signature:'2:'+JSON.stringify([transcript,names]),legacySignature:'1:'+JSON.stringify(transcript),legacyCount:legacy.length,legacyIndices};
  }
  const api={normalize,number,grade,generate};
  if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.TeumCloze=api;

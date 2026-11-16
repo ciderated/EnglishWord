@@ -16,7 +16,11 @@ assert.equal(number('hundred'),'100');
 assert.equal(number('one thousand two thousand'),null);
 const short=generate(['Host: Hi.']);assert.deepEqual(short.answers,['Hi']);
 const fixture=['Host: We hear one and see Two.\nGuest: I prefer twenty-one.'];const exercise=generate(fixture);
-assert.deepEqual(exercise.answers,['one','Two','twenty-one']);
+assert.deepEqual(exercise.answers,['We','hear','one','and','see','Two','I','prefer','twenty-one']);
+assert.deepEqual(exercise.legacyIndices,[null,null,0,null,null,1,null,null,2]);
+const named=generate(['Alice: Today Alice visits London. I am here.'],['Alice','London']);assert.deepEqual(named.answers,['Today','visits','I','am','here']);
+assert.ok(named.signature.startsWith('2:'));
+assert.deepEqual(generate(['Host: Tip two: Do this.']).answers,['Tip','two','Do','this']);
 assert.deepEqual(generate(fixture),exercise);
-for(const lesson of require('../data/listening.json').lessons){const ex=generate(lesson.transcript);assert.ok(ex.answers.length>0);assert.deepEqual(ex.paragraphs.map(parts=>parts.map(p=>p.text).join('')),lesson.transcript);}
+for(const lesson of require('../data/listening.json').lessons){const ex=generate(lesson.transcript,lesson.properNouns);assert.deepEqual(lesson.properNouns,require('../data/proper-nouns.json')[lesson.id]);for(const name of lesson.properNouns)assert.ok(lesson.transcript.join('\n').includes(name),`Unverified name: ${name}`);for(const part of ex.paragraphs.flat()){if(/[\p{L}\p{N}]/u.test(part.text)&&!part.proper&&!part.speaker)assert.notEqual(part.blank,undefined);if(part.proper)assert.equal(part.blank,undefined);}assert.ok(ex.answers.length>0);assert.deepEqual(ex.paragraphs.map(parts=>parts.map(p=>p.text).join('')),lesson.transcript);}
 console.log(`PASS ${cases.length} grading cases, numeric grammar/precision, deterministic blanks, speaker exclusion and lossless text for all62 lessons`);

@@ -23,6 +23,9 @@
         "Tip four: Turn off your cell phone when you go to bed. What is so important that it can’t wait until the morning? If possible, leave your phone in another room.",
         "Tip five: Play music if you like. But don’t play it too loud. Turn the sound down low.",
         "Host: Thank you, Doctor. That is very useful advice for our young listeners."
+      ],
+      "properNouns": [
+        "Baker"
       ]
     },
     {
@@ -48,6 +51,11 @@
         "School librarian: Thank you ... OK, thank you, Lucy. Here's your school library card.",
         "Lucy: Thanks. Bye.",
         "School librarian: Goodbye."
+      ],
+      "properNouns": [
+        "Lucy",
+        "Moore",
+        "M-O-O-R-E"
       ]
     },
     {
@@ -73,7 +81,8 @@
         "Girl: OK! OK! STOP! That's enough. Erm, what about the maracas? Can you play the maracas?",
         "Boy: Yes, I can. (singing) Young and strong and ... er ...",
         "Girl: Great, great! Hmm ... thanks for coming. I'll call you next week."
-      ]
+      ],
+      "properNouns": []
     },
     {
       "id": "a1-describing-people",
@@ -93,6 +102,13 @@
         "Aurelia: 15, mmm ... and does Alex look like Jem?",
         "Hannah: They’re exactly the same! They’re both tall and thin. They’ve both got short brown hair, green eyes and big ears!",
         "Aurelia: They’re not big, I think they’re cute. And ... has Alex got a girlfriend?"
+      ],
+      "properNouns": [
+        "Aurelia",
+        "Hannah",
+        "Jem",
+        "Lucy",
+        "Alex"
       ]
     },
     {
@@ -112,6 +128,11 @@
         "Jing: And where's our classroom?",
         "Tania: This way. Come with me.",
         "Jing: OK. Great."
+      ],
+      "properNouns": [
+        "Tania",
+        "Jing",
+        "Smith"
       ]
     },
     {
@@ -146,6 +167,17 @@
         "Admin worker: Thank you. One moment, please ... (pause) ... and here’s your card.",
         "Student: Thanks. Bye.",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "Ahmed",
+        "Saeed",
+        "Spring Avenue",
+        "Leicester",
+        "British",
+        "Newtown Secondary School",
+        "June",
+        "L-E-I-C-E-S-T-E-R",
+        "N-E-W-T-O-W-N"
       ]
     },
     {
@@ -172,6 +204,9 @@
         "Interviewer: What time do you have dinner?",
         "Dan: I have dinner at 7 o’clock, then I watch TV or go online and I usually go to bed at 10 o’clock.",
         "Interviewer: Thanks, Dan. That’s a busy day!"
+      ],
+      "properNouns": [
+        "Dan"
       ]
     },
     {
@@ -190,6 +225,13 @@
         "Greta: I'm from Germany. Where are you from?",
         "Pablo: I'm from Argentina. Nice to meet you.",
         "Greta: Nice to meet you too."
+      ],
+      "properNouns": [
+        "Sumi",
+        "Pablo",
+        "Greta",
+        "Germany",
+        "Argentina"
       ]
     },
     {
@@ -219,6 +261,15 @@
         "Ismael: At 8 o'clock. Let’s meet at 7:30 outside the cinema.",
         "Jack: OK. See you later.",
         "Ismael: Bye."
+      ],
+      "properNouns": [
+        "Jack",
+        "Ismael",
+        "Jamie",
+        "Nicola",
+        "Selina",
+        "Light and Dark",
+        "Alien attacks"
       ]
     },
     {
@@ -245,6 +296,10 @@
         "Charlie: Mum! Yes, it is. How …",
         "Mum: It's on your notebook. Right there. On your desk. It isn't a very secret place, is it?",
         "Charlie: No, it isn't."
+      ],
+      "properNouns": [
+        "Charlie",
+        "Crazy Charlie"
       ]
     },
     {
@@ -267,6 +322,9 @@
         "Café worker: That's £8.37, please.",
         "Andi: Here you are.",
         "Café worker: Thank you ... that's £10.00 ... and £1.63 change. Next, please ..."
+      ],
+      "properNouns": [
+        "Andi"
       ]
     },
     {
@@ -286,7 +344,8 @@
         "Number 8: P-I-N-K",
         "Number 9: P-U-R-P-L-E",
         "Number 10: O-R-A-N-G-E"
-      ]
+      ],
+      "properNouns": []
     },
     {
       "id": "a1-spelling-names",
@@ -305,6 +364,12 @@
         "B: R-E-E-V-E-S.",
         "A: R-double E-V-E-S.",
         "B: That’s right."
+      ],
+      "properNouns": [
+        "Anika",
+        "Reeves",
+        "A-N-I-K-A",
+        "R-E-E-V-E-S"
       ]
     },
     {
@@ -327,6 +392,10 @@
         "Ben: I never have a break. I sometimes study for two or three hours.",
         "Katy: That isn't a good idea! It's important to get up and move your body.",
         "Ben: OK. Thanks. Next time I think I can get good marks!"
+      ],
+      "properNouns": [
+        "Ben",
+        "Katy"
       ]
     },
     {
@@ -346,6 +415,9 @@
         "671",
         "5,325",
         "8,000,000"
+      ],
+      "properNouns": [
+        "June"
       ]
     },
     {
@@ -356,6 +428,12 @@
       "audio": "https://learnenglishteens.britishcouncil.org/sites/teens/files/2024-08/A2_eating_out.mp3",
       "transcript": [
         "Waiter: Hello.\nJamie: Hi. A table for two, please.\nWaiter: Of course. Over here, please. Here’s the menu.\nSally: Thank you.\n(pause)\nWaiter: Are you ready to order?\nSally: Yes, we are.\nWaiter: What would you like for your starter?\nJamie: I’d like French onion soup, please.\nSally: And I’ll have a tomato salad, please.\nWaiter: And for your main course?\nJamie: Mmm, I’m not sure. I don’t know whether to have the steak or Thai chicken.\nSally: Oh, I’d like the Thai chicken and rice please.\nJamie: OK, me too.\nWaiter: So that’s two Thai chicken and rice. What would you like to drink?\nJamie: I’ll have a fresh orange juice and ...\nSally: I’d like some mineral water, please.\nWaiter: OK, thank you."
+      ],
+      "properNouns": [
+        "Jamie",
+        "Sally",
+        "French",
+        "Thai"
       ]
     },
     {
@@ -366,6 +444,16 @@
       "audio": "https://learnenglishteens.britishcouncil.org/sites/teens/files/2024-08/A2_free_time.mp3",
       "transcript": [
         "Receptionist: Good morning, Brownton swimming pool.Tyrone: Hello, I’d like some information about the water polo club.Receptionist:  Yes, of course. We have an under 14s club, an under 16s club, an under 18s club and an adults club. How old are you?Tyrone: I’m 15.Receptionist: OK, so you want the under 16s club.Tyrone: Yes.Receptionist: Just a moment ... yes, we have two places in the under 16s club.Tyrone: When do they train?Receptionist: Let’s see, the under 16s train two evenings a week, on Mondays, no sorry, on Tuesdays and Thursdays from 6:30 – 8:00pm. And matches are on Saturday mornings.Tyrone: When does the training start?Receptionist: Training starts next week, on September 2nd.Tyrone: OK. And how much are the classes?Receptionist: Classes are free for under 18s.Tyrone: Great! What do I have to do to join?Receptionist: You have to come to the swimming pool and complete a form. You need to bring a photograph too.Tyrone: OK.Receptionist: Can I take your name?Tyrone: Yes, it’s Tyrone Williams. Receptionist: OK, thanks. Tyrone. Tyrone: Thanks. Bye."
+      ],
+      "properNouns": [
+        "Brownton",
+        "Tyrone",
+        "Williams",
+        "Mondays",
+        "Tuesdays",
+        "Thursdays",
+        "Saturday",
+        "September"
       ]
     },
     {
@@ -379,6 +467,10 @@
         "B\nGo straight on. Go past the traffic lights. You will see a shop on the right. Go past that and it’s on the right next to the shop.",
         "C\nGo straight on. Go past the traffic lights and go straight on until you get to the roundabout. At the roundabout turn left. Go past the theatre. It’s the building next to the theatre, opposite the hospital.",
         "D\nGo straight on. Go past the traffic lights and take the second right on to King’s Road. Go past the bookshop. It’s the building next to the bookshop opposite the café."
+      ],
+      "properNouns": [
+        "Green Street",
+        "King’s Road"
       ]
     },
     {
@@ -405,6 +497,15 @@
         "Tamara: OK, shall we meet at the cinema at 7:00?",
         "Mario: Great! See you later.",
         "Tamara: Bye."
+      ],
+      "properNouns": [
+        "Tamara",
+        "Mario",
+        "Mr and Mrs Jones",
+        "War Games",
+        "Robot 2075",
+        "Forever",
+        "Midnight Moon"
       ]
     },
     {
@@ -415,7 +516,8 @@
       "audio": "https://learnenglishteens.britishcouncil.org/sites/teens/files/2024-09/A2_shopping_for_clothes.mp3",
       "transcript": [
         "Shop assistant: Can I help you?Customer: Yes, have you got this T-shirt in other colours?Shop assistant: We’ve got it in white, black, red and purple. What size do you want?Customer: Medium.Shop assistant: OK, in medium we’ve got black and red.Customer: And in purple?Shop assistant: No, just black and red.Customer: OK, red. Can I try it on?Shop assistant: Yes, of course. The changing rooms are over there.(pause)Shop assistant: Is it OK?Customer: Yes, I’ll take it.Shop assistant: That’s £10.95. Would you like to pay by credit card or with cash?Customer: Cash please. Here’s twenty.Shop assistant: OK, thanks, that’s nine pounds, 5 p change and here’s your receipt.Customer: Thanks. Bye."
-      ]
+      ],
+      "properNouns": []
     },
     {
       "id": "a2-stop-wasting-time",
@@ -448,6 +550,10 @@
         "Mum: Yes?",
         "Tom: Thanks.",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "Tom",
+        "Spot"
       ]
     },
     {
@@ -472,6 +578,13 @@
         "Mark: Yes. So look at these notes. Let's test your memory.",
         "Clare: King Henry the Eighth was married six times.",
         "Mark: Exactly! Write notes like this, Clare. Then you won't have six pages of notes, you'll only have two or three!"
+      ],
+      "properNouns": [
+        "Mark",
+        "Clare",
+        "Friday",
+        "King Henry the Eighth",
+        "Henry"
       ]
     },
     {
@@ -483,6 +596,17 @@
       "transcript": [
         "Tour guide: Good afternoon, ladies and gentlemen and welcome to this fantastic tour of London by bus. My name’s Greg and I’m your guide this afternoon on our tour of London. As you can see, we’re on an open-top bus, so you can see all the attractions from your seat and you don’t need to walk anywhere. And please don’t worry about the rain, I’m sure it’ll stop soon. A-a-and please ask any questions at any time.\nTourist 1: I have a question.\nTour guide: Yes?\nTourist 1: Do you have extra umbrellas? I mean, if it rains a lot.\nTour guide: Err, no, we don’t have any extra umbrellas, but don’t worry, I’m sure the rain will stop soon. Right, OK, so where are we going on our wonderful tour? Well, the tour takes two hours and we are going to visit all the famous sites. First we’ll see Madame Tussauds, the museum with wax models of famous people and celebrities, then we’ll drive along the most famous shopping street in the world, Oxford Street. After that we’ll see the famous clock Big Ben and The Houses of Parliament. As we drive along the river you’ll see the popular attraction, the London Eye, from which you can see the whole city on a sunny day. Then we’ll see Tower Bridge and the famous Tower of London before arriving at Buckingham Palace, just in time for a cup of tea with the Queen.\nTourist 2: Is that included in the tour? A cup of tea with the Queen?\nTour guide: Err, well, no, not exactly, but there’s a lovely café near the palace where you can get a cup of tea. (Sound of a storm right overhead, loud thunder and very heavy downpour)\nTourist 1: I have another question.\nTour guide: Yes?\nTourist 1: Can we have our money back? We’re getting off the bus.\nTour guide: Err, well, you see ... Quick! Run! Everyone off the bus! ...",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "London",
+        "Greg",
+        "Madame Tussauds",
+        "Oxford Street",
+        "Big Ben",
+        "Houses of Parliament",
+        "London Eye",
+        "Tower Bridge",
+        "Buckingham Palace"
       ]
     },
     {
@@ -523,6 +647,18 @@
         "Angel: Oh no, we've missed it.",
         "Harry: No we haven't, it's late. Look, here it is now.",
         "Angel: Phew, that was lucky!"
+      ],
+      "properNouns": [
+        "Cambridge",
+        "Manchester",
+        "Oxford",
+        "Liverpool",
+        "Exeter",
+        "Bristol Temple Meads",
+        "St David's",
+        "Harry",
+        "London",
+        "Angel"
       ]
     },
     {
@@ -542,6 +678,18 @@
         "This is an announcement for passengers travelling to Amsterdam on flight KL1050. Will all passengers with express boarding tickets and passengers travelling with young children please go to gate 6 for boarding. That's all passengers with express boarding tickets and passengers travelling with young children go to gate 6 for boarding. Thank you.",
         "E",
         "Good evening, ladies and gentlemen. We have landed at JFK airport in New York where the local time is 18:30 and the temperature is 76º. We hope you have enjoyed your flight with American Airlines this evening and wish you a very safe journey to your final destination."
+      ],
+      "properNouns": [
+        "Rome",
+        "Tokyo",
+        "Gemma",
+        "Ryan",
+        "Grey",
+        "Athens",
+        "Amsterdam",
+        "JFK",
+        "New York",
+        "American Airlines"
       ]
     },
     {
@@ -559,6 +707,12 @@
         "This photo shows the pages I need to read for homework. I use two coloured page markers to mark where it starts and ends. Those blue ones mark the pages I need to read for history.",
         "Finally, this last photo shows my wall calendar. This green star shows I have a maths test on Friday. This pink circle shows I've got French homework for Monday. It's pink because 'pink' is 'rose' in French … and the rose is my favourite flower.",
         "Has anyone got any questions?"
+      ],
+      "properNouns": [
+        "Black Sea",
+        "Friday",
+        "French",
+        "Monday"
       ]
     },
     {
@@ -570,7 +724,8 @@
       "transcript": [
         "News reporter: Here is the weather.",
         "Weather reporter: Welcome to the weather forecast. Now, let's see what the weather is like today. In the north of the country it's very windy and cold. There is a chance of some rain too, so don't leave home without your umbrella! The temperature is around 10º centigrade. In the east it's rainy all day today, I'm afraid. There may be a thunderstorm in the afternoon. The temperature is a bit higher, at around 13º. In the west and middle of the country the weather is dry, but cloudy. So no rain for you, but it is quite windy and the temperature is just 10º. The south of the country has the best weather today. It's cloudy most of the time but sunny this afternoon. The temperature is around 15º."
-      ]
+      ],
+      "properNouns": []
     },
     {
       "id": "a2-work",
@@ -589,6 +744,14 @@
         "My job is very difficult, but I like it because I love flying. I fly planes that take people to different places on holiday. Most of the time I fly in Europe to places like Spain, Greece and Italy. The most difficult thing about my job is when the weather is bad. Snow and thunderstorms are the worst. The best thing is visiting different places.",
         "E",
         "I work in a hospital in the city centre. It's a very big hospital. I help the doctors with the patients. I give them their medicine and look after them when they feel ill. I love my job but I don't like the uniform and sometimes I have to work at night."
+      ],
+      "properNouns": [
+        "Saturdays",
+        "Oxford",
+        "Europe",
+        "Spain",
+        "Greece",
+        "Italy"
       ]
     },
     {
@@ -609,7 +772,8 @@
         "Take regular breaks while you're studying. A five-minute break every half hour is usually enough. Get some fresh air and stretch your arms and legs. Drink a glass of water too. It's important to keep hydrated.",
         "And, last but not least, good luck! I'm sure you'll all do your best.",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
-      ]
+      ],
+      "properNouns": []
     },
     {
       "id": "b1-amazing-facts",
@@ -644,6 +808,9 @@
         "B: Yeah, right, harmless. I really would have preferred not to know that.",
         "A: Sorry.",
         "B: I mean, really!"
+      ],
+      "properNouns": [
+        "Hollywood"
       ]
     },
     {
@@ -664,6 +831,25 @@
         "E",
         "There's a Royal Wedding in June – one of our princes is getting married – so it's a public holiday. Lots of people are having parties in squares and parks and places, and the people in our street decided to have one too. Well, it's a good excuse to have a party, isn't it? We're all going to take out tables and chairs and put them together in the middle of the road. We're going to stop cars coming through, obviously. We're all going to bring different dishes and share them round. There are quite a lot of different nationalities living on our street – people from India, China and different African countries – so the food should be really interesting. It'll be good to get to know more of the neighbours too.",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "Nicky",
+        "Chinese",
+        "Steve",
+        "Jo",
+        "August",
+        "London",
+        "Notting Hill Carnival",
+        "Afro-Caribbean",
+        "Sandra",
+        "October",
+        "Halloween",
+        "Facebook",
+        "Royal Wedding",
+        "June",
+        "India",
+        "China",
+        "African"
       ]
     },
     {
@@ -678,6 +864,12 @@
         "B",
         "Girl 1: Hi, Megan. How are you?\nGirl 2: Not feeling too good, actually.\nGirl 1: Oh? Why’s that?\nGirl 2: Well, something terrible happened this morning … (voice trembling)\nGirl 1: What? Sorry, take your time, and tell me when you’re ready.\nGirl 2: Well, I was playing with Bonzo in the garden with a ball, and the ball went over the hedge into the road, and …\nGirl 1: Yes?\nGirl 2: And Bonzo jumped over the hedge after it and he got hit by a car.\nGirl 1: Oh, no! And is he … ?\nGirl 2: Yes. We took him to the vet’s immediately, but there was nothing she could do.\nGirl 1: Oh, poor Bonzo. And poor you. I know how much he meant to you.\nGirl 2: We’d had him since he was a tiny puppy. He was like one of the family.\nGirl 1: I’m really sorry. At least he had a happy life.\nGirl 2: His life was too short!\nGirl 1: Well, yes, OK. I’m sorry, that was a really insensitive thing to say. I’ll come round and see you later, OK?",
         "C\nBoy: Hi, Dad.\nFather: Hi, how’s it going?\nBoy: Did you have a good day at work?\nFather: Same as usual, really. What about you? Good day at school?\nBoy: Yeah, pretty good. Except for one little thing …\nFather: Why do I have a sinking feeling in my stomach?\nBoy: Do you remember you lent me your phone?\nFather: Yes?\nBoy: Well, I was standing just outside school, texting Jack, and somebody ran past and grabbed it.\nFather: You let someone steal my phone?\nBoy: I didn’t let them.\nFather: No, I suppose not. But did you know that that might happen? Is that a dangerous spot?\nBoy: Well, I had heard of that happening, but I’d forgotten. Anyway, I didn’t think it would happen to me.\nFather: No, OK. Did you see who it was?\nBoy: No. It was someone in a blue tracksuit, and there are loads of people who wear those. But there’s a CCTV camera on the entrance. It might have got a shot of the thief’s face.\nFather: You reported it then?\nBoy: Well, not yet, but I will tomorrow.\nFather: All right. Don’t forget to report it tomorrow. I’ll have a look at the insurance and see if it’s covered."
+      ],
+      "properNouns": [
+        "Ryan",
+        "Megan",
+        "Bonzo",
+        "Jack"
       ]
     },
     {
@@ -697,6 +889,11 @@
         "This might sound a bit old-fashioned, but my sewing machine is my favourite thing. I'm studying fashion and love making things, as well as designing them. I also love clothes myself and often buy second-hand clothes –  everyone loves the 'vintage' look at the moment – and then I adapt them to my size. It's much easier using a machine to do that than doing it by hand. I do alterations for my mum and my sister too. If I don't make it as a designer, I suppose I can always set up my own alterations and customising business. Customising clothes, by taking things off and adding things on, is actually very creative, so I wouldn't mind that.",
         "E (boy)",
         "My set of Japanese knives. That sounds a bit sinister, doesn't it, but I'm not a murderer or anything. They're chef's knives and the best ones come from Japan. Cooking is my new hobby. I got into it when I started watching Masterchef on TV. Then I went to an evening class for beginners, and I haven't looked back since. I try and have a dinner for between four and eight friends every two or three weeks. That gives me something to work towards and I always do new dishes so they can try them out and give me feedback. It's quite an expensive hobby if you use good ingredients, but now my friends help towards the cost. They still get a good meal for a very low price."
+      ],
+      "properNouns": [
+        "Japanese",
+        "Japan",
+        "Masterchef"
       ]
     },
     {
@@ -717,6 +914,13 @@
         "E (Girl)",
         "I can remember all the details of when we met. I was wearing a red dress and I’d just had my hair cut. I can even remember what music was playing the first time I saw him. I knew he was special from the beginning, and I was right. We’ve been together ever since. Well, it’s only been eighteen months, and some people say that isn’t very long, but it seems like ages to me. We’ve got such similar personalities and so much in common. I’m sure we’ll stay together forever.",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "Heather Jenkins",
+        "Laura",
+        "London",
+        "Manchester",
+        "Facebook"
       ]
     },
     {
@@ -745,6 +949,13 @@
         "Guide: Yes, there are quite a lot of llamas and alpaca in the UK. They adapt very well to our climate. They make good pets and sometimes they're used for trekking. You go on a picnic and use a llama to carry your food.",
         "Teenager 3: Cool! I want to do that!",
         "Guide: And sometimes farmers use them as guard dogs, I mean guard llama. The adult males will protect sheep and hens from animals that might attack them, like dogs or foxes. They're really useful animals."
+      ],
+      "properNouns": [
+        "South America",
+        "Incas",
+        "Latin America",
+        "Andes",
+        "UK"
       ]
     },
     {
@@ -765,6 +976,40 @@
         "E (girl)",
         "Let the Right One In is my favourite film. There are two versions, the first is Swedish and the second American – I prefer the original, Swedish version. It's a modern vampire film and also a kind of love story, but it's really unsentimental and a bit scary in places. Oskar is a young boy with a lot of problems. He is being bullied at school and wants revenge on the bullies. Then some new neighbours move in next door and he becomes friends with Eli, a beautiful but strange girl. I won't tell you any more, because it will spoil the story, but expect a serial killer, a lot of violence and blood-drinking. If you like that kind of thing, you'll love this.",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "The Notebook",
+        "Noah",
+        "Allie",
+        "Ryan Gosling",
+        "Rachel McAdams",
+        "Skyfall",
+        "James Bond",
+        "Daniel Craig",
+        "Javier Bardem",
+        "Judi Dench",
+        "M",
+        "Bond",
+        "Shanghai",
+        "Scotland",
+        "Adele",
+        "Oscar",
+        "Pride and Prejudice",
+        "Keira Knightley",
+        "Elizabeth Bennet",
+        "Matthew Macfadyen",
+        "Darcy",
+        "Jane Austen",
+        "The Matrix",
+        "Neo",
+        "Keanu Reeves",
+        "Morpheus",
+        "Laurence Fishburne",
+        "Let the Right One In",
+        "Swedish",
+        "American",
+        "Oskar",
+        "Eli"
       ]
     },
     {
@@ -793,6 +1038,14 @@
         "Peter: Yes, it works for me! It stops me wasting time. My work is much more effective when I use the timer. It's like short, intense periods of work. I actually get my homework done a lot quicker now, which leaves me more free time, so for me it works really well.",
         "Host: Oh, I think I'll give it a try. Thanks so much for coming in, Peter.",
         "Peter: You're welcome. Thanks for inviting me."
+      ],
+      "properNouns": [
+        "Star Students",
+        "Peter",
+        "Pomodoro Technique",
+        "Pomodoro",
+        "Italian",
+        "Francesco Cirillo"
       ]
     },
     {
@@ -809,6 +1062,15 @@
         "B",
         "OK, let me show you the gym. My name's Bill and I'm the main sports trainer here, but we have a team of four specialists who are always around to help you with exercise programmes and give advice about lifestyle and diet. We strongly recommend that you talk to one of us as soon as you sign up and set up your personalised training programme. So, through here we have the main gym. As you can see, it's enormous and we have lots of brand-new machines. You can do everything here, running, cycling, rowing, weights … you name it. Although we have a lot of clients, it's very unusual to have to wait for a machine. Over there is the area for weight-training. If you want a closer look at the machines, you can come back later. Oh, by the way, you can only come in here with trainers on. No outdoor shoes, please.",
         "OK, through here we have the swimming pool. It's great, isn't it? We're very proud of it. You can use it most of the time without booking, but there are certain times of day when we have swimming classes and water aerobics. There is always a lifeguard in attendance who will also offer informal swimming tips. OK, just over there you have the changing rooms and lockers, and on the right are the bathrooms and showers. We have our own shop, here, where you can buy our own brand of sportswear and sports drinks and supplements. Right, I can see you're impressed, and as I said, we're very proud of our centre. However, I should warn you that we are slightly more expensive than other gyms in the area – but then we offer a much higher level of services and a very wide range of activities. Here's a brochure with the timetables of the extra classes that we offer, such as boxing, taekwondo and capoeira and quite a few others, besides swimming activities: swimming classes, diving classes, water aerobics and water polo. OK, so have a look at the brochure, then you can speak to one of the secretaries in reception about the best combination of activities for you."
+      ],
+      "properNouns": [
+        "Maya",
+        "Grange Park Sports Centre",
+        "Pilates",
+        "Zumba",
+        "Indian",
+        "Latin",
+        "Bill"
       ]
     },
     {
@@ -841,6 +1103,17 @@
         "Girl: Oh, we're going for four days, actually.",
         "Boy: Oh, four days, very nice. And who are you going with?",
         "Girl: Oh, just a friend."
+      ],
+      "properNouns": [
+        "Paris",
+        "Eiffel Tower",
+        "River Seine",
+        "Louvre",
+        "Impressionist",
+        "Rodin Museum",
+        "The Thinker",
+        "French",
+        "Musée d'Orsay"
       ]
     },
     {
@@ -872,6 +1145,34 @@
         "Andy: Yes, this year. I'll be there!",
         "Interviewer: Have a ride for me, then.",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "Andy",
+        "Wells",
+        "Magic Kingdom",
+        "Disney World",
+        "Florida",
+        "Cedar Point",
+        "Ohio",
+        "USA",
+        "Gatekeeper",
+        "The Wizarding World of Harry Potter",
+        "Harry Potter",
+        "Islands of Adventure",
+        "Orlando",
+        "Hogwarts School",
+        "Asia",
+        "Ocean Park",
+        "Hong Kong",
+        "Lotte World",
+        "South Korea",
+        "Singapore",
+        "New York",
+        "Sesame Street",
+        "China",
+        "Tokyo",
+        "Disneyland",
+        "Universal Studios"
       ]
     },
     {
@@ -903,6 +1204,28 @@
         "Louise: Oh yes, she lives a very normal life in a small town and goes to school and so on. She's not even twenty yet. But I think writing and editing are very different from being a performing artist. There’s a lot less pressure from fans and the press. Although some actors, like Emma Watson, seem to manage a private life and getting a normal education.",
         "Presenter: Yes, Emma Watson is now in her twenties, of course, but …",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "Louise",
+        "Hardy",
+        "YouTube",
+        "Twitter",
+        "Justin Bieber",
+        "Justin",
+        "Usher",
+        "Obama",
+        "Klout",
+        "Tavi Gevinson",
+        "Tavi",
+        "Style Rookie",
+        "Rookie",
+        "British",
+        "American",
+        "Europe",
+        "Karl Lagerfeld",
+        "Rookie Magazine",
+        "Lady Gaga",
+        "Emma Watson"
       ]
     },
     {
@@ -940,6 +1263,14 @@
         "Mary: No?",
         "Charles: No. They are just simple ways that we can train our brains to be more effective. By getting into the habit of using word association, visualisation, singing and teaching, our brains develop and work better for us. And of course that has a knock-on effect on our memory and our abilities to recall all kinds of data.",
         "Mary: Thank you, Charles. Now, I think we’ve got time for a couple of questions from our listeners."
+      ],
+      "properNouns": [
+        "Mary",
+        "Charles",
+        "Long",
+        "New Science",
+        "Berlin Wall",
+        "English"
       ]
     },
     {
@@ -957,6 +1288,10 @@
         "Have a look at these examples of student notes. Which do you think are best? The first person has written important phrases at random, the next has a table with clear headings and boxes with notes, the next has summaries, and the last one has mind maps: you’ve got the main topic in the circle, then lines coming off the circle attached to subcategories, then more lines to further details. Mind maps are great for showing the connections between different bits of information. They seem to work in the same way the brain works. So what do you think? To me, the first one wouldn’t be very useful to come back to and use in the future. But the others are all fine – it depends on your personal preference. Mine is for mind maps. I would suggest using colours, though, and even little drawings. They can make things much more memorable.",
         "Obviously, when you are studying, the first thing to think about is whether you understand the information, and the second thing is how you are going to remember it. Let’s look at some more ways of making information more memorable …",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "Twitter",
+        "Facebook"
       ]
     },
     {
@@ -974,6 +1309,28 @@
         "I’m really interested in ecology and my hero, or heroine, is Rachel Carson because she first got people thinking about the way we humans are causing permanent damage to the Earth’s ecosystems. She began as a biologist, specialising in writing about the sea, but she gradually became aware of the danger of  using pesticides like DDT and the way they can harm the whole of the food chain, from the worm to humans! She wrote her classic book Silent Spring in 1962 to explain this to the general public, to explain how humans and nature are interdependent. The title of Silent Spring refers to the fact that one day all the birds might be dead so they won’t be able to sing in the springtime. The agricultural and chemical industries reacted very badly to the book and said she was unprofessional. But further research by other scientists proved that she was right about the dangers of chemicals used to kill insects. Nowadays there is a growing movement for organic food production, but unfortunately things in general are still getting worse, rather than better. We still need to read Rachel Carson’s book and think about its message.",
         "D (Girl 2)",
         "My choice of hero isn’t very original, I’m afraid, but he’s the person I would most like to have met: John Lennon. He died a long time before I was born, and his most famous songs were written long before that, but when I listen to his music I really feel as if he’s speaking to me personally. I love the whole range of the Beatles’ music, from the early pop songs to the very experimental music at the end of their time as a group. John Lennon was the most innovative writer in the Beatles and he continued to create exciting music when he left and went solo. But although I love his music, what I admire about him is his dedication to universal peace. It’s amazing that the song Imagine, written in 1971, is still incredibly popular after all this time. It’s about a world where everyone can be equal, a world with no wars, no divisions between countries, no greed, no hunger, no material possessions ...  I’d like to meet him because he was a lifelong rebel, and although he could be a difficult person, he was original, clever and funny. It was awful that he was killed in 1980 when he was only 40. I wonder what he would be doing if he was alive now."
+      ],
+      "properNouns": [
+        "Mary Anning",
+        "Lyme Regis",
+        "England",
+        "Charles Dickens",
+        "Kailash Satyarthi",
+        "India",
+        "RugMark",
+        "Goodweave",
+        "South Asia",
+        "Nepalese",
+        "Rachel Carson",
+        "Rachel",
+        "Earth",
+        "Silent Spring",
+        "Carson",
+        "John Lennon",
+        "John",
+        "Lennon",
+        "Beatles",
+        "Imagine"
       ]
     },
     {
@@ -1009,6 +1366,24 @@
         "Jed: Oh, you would if you’d seen the photos. They’re amazing.",
         "Presenter: OK, Jed, thanks for that. We’ll leave you with your head in the clouds and see you again next week!",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "Tech Today",
+        "National Science and Engineering Week",
+        "Jed",
+        "October",
+        "China",
+        "Gabriele Diamanti",
+        "Ukrainian",
+        "James Cameron",
+        "Cameron",
+        "Titanic",
+        "Ron Allum",
+        "Deepsea Challenger Submarine",
+        "Deepsea Challenger",
+        "MIT",
+        "Massachusetts Institute of Technology",
+        "Dutch"
       ]
     },
     {
@@ -1050,6 +1425,29 @@
         "Jonny: It's wild! Those ladies scare me to death! Good luck to them with the Olympics thing though. And good luck to us too.",
         "Presenter: Good luck to you both.",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "Olympics",
+        "Jonny Mills",
+        "Jonny",
+        "California",
+        "Wakestock",
+        "July",
+        "Wales",
+        "Abersoch",
+        "North Wales",
+        "Jules Russell",
+        "Jules",
+        "UK",
+        "England",
+        "US",
+        "Canada",
+        "Scandinavia",
+        "Australia",
+        "States",
+        "Texas",
+        "Julifier",
+        "Olympic"
       ]
     },
     {
@@ -1066,6 +1464,29 @@
         "Maybe you are not quite so keen on the great outdoors and your talents are more journalistic. If you fancy feature writing, photography and making videos, you can apply for the position of lifestyle photojournalist for Time Out in Melbourne. You would be required to photograph and write about the city's coolest cafés and musical events. But you’d also cover tourist activities in the whole state of Victoria, including surfing on the Great Ocean Road, skiing at Mount Hotham or watching the little penguins at Phillip Island.",
         "Are you a foodie? Do you know about food, as well as love eating it? If the answer's yes, you can apply for the role of 'taste master' in Western Australia. Your job would be to promote the best restaurants, pubs, wineries and breweries. You’d also catch fresh seafood off the beautiful coast and learn all about making wine and beer.",
         "Finally, a fantastic job in Sydney. We’ve all seen those amazing firework displays in Sydney Harbour. Well, you could be one of the people making that happen next year. New South Wales is looking for a 'chief funster', who would be based in Sydney while travelling around the state and tweeting about the coolest things going on. This job would appeal to someone interested in everything: sports, the arts, entertainment, food. You’d also be involved in making the Sydney Festival, Mardi Gras and Vivid Festival as spectacular, and as fun, as possible."
+      ],
+      "properNouns": [
+        "Australia",
+        "Tourism Australia",
+        "Northern Territory",
+        "Queensland",
+        "Great Barrier Reef",
+        "Lizard Island",
+        "Kangaroo Island",
+        "South Australia",
+        "Seal Bay",
+        "Time Out",
+        "Melbourne",
+        "Victoria",
+        "Great Ocean Road",
+        "Mount Hotham",
+        "Phillip Island",
+        "Western Australia",
+        "Sydney",
+        "Sydney Harbour",
+        "New South Wales",
+        "Mardi Gras",
+        "Vivid Festival"
       ]
     },
     {
@@ -1078,6 +1499,17 @@
         "Good morning, everybody. Good morning. Hello. Now, have you ever noticed that when you log on to the internet, you nearly always see adverts for things that you're interested in? Yes? OK. So, let's say you were looking for a new pair of trainers last week. Well, suddenly you'll see adverts for trainers all over the place. Well, believe it or not, this isn't random. The internet browsers, websites and apps that we use know a lot about us because they monitor how we use their site or app. This way they can work out what we like and don't like. Clever! So, you've probably heard of cookies. Am I right? Yes? OK. When you visit some sites for the first time, a cookie is downloaded onto your computer that keeps a track on how you travel around the site and exactly what you do. So, the next time you use the site again, your computer will check the cookies and adapt, depending on the information it stored from your last visit. With me? OK. So, without even thinking about it, we give out a lot of information that can then be used to personalise our online experience.",
         "Now, I saw a great presentation last week by the internet activist Eli Pariser and I want to tell you a little bit about it. He wrote a book a few years ago called The Filter Bubble and I think it's something that we should all know about. Here's the book. We actually have it in the school library if you want to borrow it. In this talk I'm just going to give you a little taster. Now, he likens the 'filter bubble' to an ecosystem and he claims it is something that we should all be worried about. Now, after reading his book and watching his talk, I've got to say I agree with him. I think it's something you should all know about too.",
         "So, let me try to explain using a simple example. Imagine I support a political party … so, to keep this really simple let's call it the Yellow Party. OK, so let's say I have lots of friends who also support the Yellows but some of my friends support the Reds. Now, on my favourite social media site I want to see the posts from all my friends but I tend to click more on the links that are posted by my friends who support the Yellows, like me, obviously. Even so, I do still want to see what the Reds are posting about. With me? OK. Now, a few months ago, just before the big elections I noticed something quite weird happening on my newsfeed. I noticed that my friends who support the Red Party had almost completely disappeared from the site, and I was only being shown posts from my Yellow friends. Weird. Now, I wondered if all my Red friends had left this social media space and moved somewhere else, but when I clicked on their profiles to check, I could see that they had been busy posting links and talking to people, but their posts were being hidden from me. And it's only now I understand why. I know it's because I hardly ever clicked on their posts and I didn't interact so much with them. So, the social media site itself had decided for me that I wasn't interested in their posts, so they decided not to show them to me. Now, this is an example of what Eli Pariser means by the filter bubble – it's when the websites and apps choose what information we can and can't see. Does that make sense?"
+      ],
+      "properNouns": [
+        "Eli Pariser",
+        "Eli",
+        "Filter Bubble",
+        "Yellow Party",
+        "Yellow",
+        "Yellows",
+        "Red Party",
+        "Red",
+        "Reds"
       ]
     },
     {
@@ -1092,6 +1524,11 @@
         "Some sites are now starting to personalise what an individual user sees. Now, sometimes, of course, it can be really helpful to have information personalised for us. It can save us time searching and often actually we do want to see the information that we're more interested in. It can make online shopping easier and it helps us to connect with like-minded people. But let's stop for a second and think. Do we really want the internet to offer us only what the internet thinks we want to see? Aren't we going to miss out on a lot of really interesting and fresh information?",
         "Well, whatever you think about the filter bubble, I think we all need to be aware that this is happening. By controlling the flow of information each individual receives, these algorithms mean we don't have access to all the information that is out there. So, aren't we missing out on a lot of really useful stuff?",
         "The question is, what can we do? Well, I have to say, I agree with Eli Pariser. I think we need to try and step outside of our filter bubbles from time to time to try and get our information from other sources, as well as the internet. And actually you can look for alternative search engines that don't filter the content in the same way. They exist too. There are also ways to depersonalise searches, but I will tell you more about that another day. For now, just try to make sure that you keep your eyes and ears open and learn as much as you can about how the internet actually works. Things change very quickly, but we should all try and keep up to date and learn more about how the wonderful worldwide web works. Thank you very much."
+      ],
+      "properNouns": [
+        "Eli Pariser",
+        "Eli",
+        "Egypt"
       ]
     },
     {
@@ -1112,6 +1549,19 @@
         "Another change is that the lions are now given Maasai names and each has a card explaining who the lion is related to and which lions they keep company with. Personalising the lions helps them to be seen as individuals by the community.",
         "Since the programme began in 2007, no lions have been killed in the area patrolled by Lion Guardians. Compare that to a similar neighbouring area without Guardians, where 63 have been killed, and you can see just how successful the scheme is. The Maasai have managed to successfully adapt their culture to changing times without giving up their identity.",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "Maasai",
+        "Kenya",
+        "East African",
+        "Lion Guardians",
+        "Lion Guardian",
+        "Olubi Lairumbe",
+        "Olubi",
+        "David Attenborough",
+        "Africa",
+        "Mingati Makarot",
+        "Mingati"
       ]
     },
     {
@@ -1129,6 +1579,39 @@
         "More fun, in my opinion, are the onion-eating contest, also in Gloucestershire – a race to finish eating a raw onion – and the Black Pudding Throwing Championship, in Lancashire. Black puddings are like big sausages made mainly from dried blood. Contestants bowl three black puddings each at 21 Yorkshire puddings set on a six-metre platform; the winner is the one who knocks down the most. Another fun contest takes place in September at the Egremont Crab Fair in Cumbria in the north of England. The World Gurning Championship is a competition to pull the ugliest face. It sounds ridiculous but this is an ancient British tradition and the Crab Fair itself dates back to 1267. The man who won the title of best gurner the most in recent years had all his teeth taken out so he could make terrible faces more easily.",
         "Finally, let's go back to the south of England. In Brighton there's a Burning the Clocks Festival to celebrate the winter solstice on December 21st. This custom started twenty years ago and is very popular. People make clock lanterns and time-themed figures of paper and wood, then walk through the town to the beach where the sculptures are set on fire and there's a massive firework display.",
         "So, that's just a taste of a few of our old and more modern traditions. Would you like to take part in any of them?"
+      ],
+      "properNouns": [
+        "British",
+        "Notting Hill Carnival",
+        "London",
+        "Edinburgh Festival",
+        "January",
+        "Scotland",
+        "Burning of the Clavie",
+        "Shetland Islands",
+        "Up Helly Aa",
+        "Viking",
+        "England",
+        "Shrove Tuesday",
+        "February",
+        "Pancake Day",
+        "Pancake Bell",
+        "Scarborough",
+        "UK",
+        "Gloucestershire",
+        "World Championship Snail Racing",
+        "Norfolk",
+        "France",
+        "Black Pudding Throwing Championship",
+        "Lancashire",
+        "Yorkshire",
+        "September",
+        "Egremont Crab Fair",
+        "Crab Fair",
+        "Cumbria",
+        "Brighton",
+        "Burning the Clocks Festival",
+        "December"
       ]
     },
     {
@@ -1164,6 +1647,75 @@
         "Presenter 2: All seem horrible to me, but all are possible names. This is similar to another trend of giving children names all starting with the same letter, like the Kardashian family, all beginning with K, Kim, Kourtney and so on.",
         "Presenter 1: The Kardashians have had enough publicity, let’s not talk about them. What about your name? Finn, that sounds like a good Irish name …",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "Finn",
+        "US",
+        "Britain",
+        "Honor",
+        "Passion",
+        "Faith",
+        "Charity",
+        "Haven",
+        "Shelter",
+        "Harbor",
+        "Bay",
+        "Frost",
+        "Wolf",
+        "Fox",
+        "Bear",
+        "Ridge",
+        "Harmony",
+        "Melody",
+        "Lyric",
+        "May",
+        "June",
+        "April",
+        "January",
+        "November",
+        "Beyoncé",
+        "Jay-Z",
+        "Blue Ivy",
+        "Red",
+        "Grey",
+        "Olive",
+        "Clementine",
+        "Gwyneth Paltrow",
+        "Chris Martin",
+        "Apple",
+        "Chelsea",
+        "Brooklyn",
+        "Taylor",
+        "Mason",
+        "Cooper",
+        "Beckhams",
+        "Harper Lee",
+        "Harper",
+        "American",
+        "To Kill a Mockingbird",
+        "British",
+        "One Direction",
+        "Bella",
+        "Edward",
+        "Twilight",
+        "Hermione",
+        "Harry Potter",
+        "Holland",
+        "Alex",
+        "Axel",
+        "Lexa",
+        "Xela",
+        "Zela",
+        "Xael",
+        "Zay-el",
+        "Xeal",
+        "Zeal",
+        "Dutch",
+        "Kardashian",
+        "Kim",
+        "Kourtney",
+        "Kardashians",
+        "Irish"
       ]
     },
     {
@@ -1195,6 +1747,12 @@
         "Liam: Well, of course, it would be nice. But the organisation I help is non-profit-making and it couldn’t really afford to pay all the volunteers. At the moment, I’m happy to do what I love and gain experience of dealing with the public. I’m living with my parents and they are paying my keep. In the future I’ll have to look for paid work.",
         "Debbie: I think many volunteers feel they want to give something back to their sport. It was like that for me with football. Ideally it would be good to have more paid positions, but we also need volunteers. Sport just couldn’t function without them. It is really important to give people recognition for what they do, though.",
         "Interviewer: Thanks very much for sharing your experiences. And now, we’re going to move on …"
+      ],
+      "properNouns": [
+        "Liam Parker",
+        "Liam",
+        "Debbie Sanford",
+        "Debbie"
       ]
     },
     {
@@ -1227,6 +1785,17 @@
         "Presenter: Right, so we need to be a little more critical and not just believe everything we read online.",
         "Journalist: That's right, although it's difficult because we want information quickly and immediately, so it's not always viable to spend time checking the sources of information, even though we should. And we should certainly try and reflect on the information and decide ourselves if we think it's true or not. If you feel unsure about the validity of certain information, then there's no harm in looking into it further to check how true it actually is.",
         "Presenter: That's very true. We often take things at face value and don't really take the time to think critically about them."
+      ],
+      "properNouns": [
+        "Tech-times",
+        "Sam Wogan",
+        "Brad",
+        "Wikipedia",
+        "American",
+        "Brazil",
+        "Brazilian",
+        "British",
+        "Facebook"
       ]
     },
     {
@@ -1247,6 +1816,11 @@
         "Jeff Seagle: Sure, and that's a good point. You need to work out what you're best at, and what you feel most passionate about, and let that guide your career path. It could be working in publicity, promoting artists; working in A&R (that stands for Artists and Repertoire), discovering new talent and matching artists up with musical collaborators; booking acts for TV shows; helping a new band become successful by working with their management team. And of course now there are hundreds of jobs connected to the internet. You could be managing a website or blogging for a label. Or social media manager for a band – running their social media channels. Things are changing so fast – a lot of the music portals we use today have only been in existence a short time. Who knows what's coming next and what new jobs will be created?",
         "Girl B: Thanks, that's really useful. I also wanted to ask how you deal with celebrities. Have you worked with many?",
         "Jeff Seagle: Yep, quite a few. The main thing is not to be star-struck, just treat them as clients, it's a business relationship. If you get tongue-tied and clam up, everyone will feel awkward. The other thing is that the unknown singer of today could be the star of tomorrow, so you need to treat everyone with respect. I remember, right ..."
+      ],
+      "properNouns": [
+        "Jeff Seagle",
+        "Jeff",
+        "Seagle"
       ]
     },
     {
@@ -1266,6 +1840,10 @@
         "My generation is so different to my parents'. I mean, they're always telling me that they grew up in a world without mobiles and social networking and they managed fine. Hard to imagine how they arranged to meet their friends without a phone … but they say they did! Uh ... I had so many arguments with them while I was growing up, until they let me have my first smartphone. But they didn't let me have Snapchat or Instagram or anything like that! 'It's not the end of the world,' they'd say! They just didn't understand that that's the way people my age communicate with each other. Nobody actually talks on the phone any more. They have no idea how much I missed out on at school being the only one who didn't have Snapchat. Also, at school we had loads of talks and stuff on how to stay safe online and most of us knew that anything you post online was going to be there forever.",
         "Speaker 5",
         "For me, one of the best things about online communication is that you can stay in touch with everyone at the same time, all the time. You know exactly what's going on, when and where, so you never miss out on anything. I love the fact that you can update all your friends on what's going on in your life and they can respond immediately with a like or a comment, so you feel like you're together with people even though you might be completely alone sitting on a bus or at home. I share loads of photos, but I only post up my best edited shots. I hate it when people I know post photos of me not looking my best."
+      ],
+      "properNouns": [
+        "Snapchat",
+        "Instagram"
       ]
     },
     {
@@ -1288,6 +1866,16 @@
         "Presenter: It must be hard for a human to live like a swift.",
         "Jon: Absolutely! Foster can't fly! The nearest he can get to the birds is by standing in a tree and trying to catch insects. But this section has a lot of fascinating facts about swifts, and about other animals. In fact the whole book is very witty and engaging. It asks lots of important questions about what it means to be human and animal, and provides quite a few possible answers. I really recommend this to anyone with any interest in animals, or in humans, in fact. Although it contains some scientific detail, it's a very good read, by the way. Very entertaining.",
         "Presenter: Well, I'll certainly look out for that book, Jon. Thanks. Now, our next book is about something completely different …"
+      ],
+      "properNouns": [
+        "Book Corner",
+        "Charles Foster",
+        "Foster",
+        "Jon",
+        "Being a Beast",
+        "Tom",
+        "Scotland",
+        "London"
       ]
     },
     {
@@ -1308,6 +1896,12 @@
         "So what we have here is enough evidence to conclude that the best way to help you pass your exams is to learn the information in a fun, interesting way, review it regularly, and most importantly, get plenty of good-quality sleep.",
         "And before you all drift off into a peaceful slumber, I’d like you to ask any questions you might have.",
         "Teacher: Thank you, Professor. OK, any questions?"
+      ],
+      "properNouns": [
+        "Manson",
+        "University of Denton",
+        "National Sleep Foundation",
+        "Washington"
       ]
     },
     {
@@ -1328,6 +1922,13 @@
         "Speaker 5",
         "My main reason for becoming vegan was that I can't stand the way we treat animals – most farms are run in such an inhumane way. I refuse to support factory farming. The treatment of hens is horrific, not to mention what they do to cows. So now I don't eat any animal products – no meat, obviously, but no eggs, milk or cheese either. And I don't eat fish, of course. When I first started to be a vegan, I found I was getting tired all the time, so I went to see a nutritionist and she said I wasn't getting enough protein. Now I'm a lot more careful and I eat lots of different nuts and seeds, and pulses – you know, dried beans, chickpeas and lentils. It's a bit time-consuming, buying and cooking special things, but now I feel really good. My family think I'm a bit weird, but they're gradually coming round to my lentil and rice specials!",
         "This audio is for you to practise your listening skills. Some of the information it contains may not be up to date."
+      ],
+      "properNouns": [
+        "UK",
+        "Instagram",
+        "Italian",
+        "Indian",
+        "Middle Eastern"
       ]
     },
     {
@@ -1363,7 +1964,8 @@
         "Teacher: Yes, very good, Group A. Any more? Group C?",
         "Group C spokesperson: Err … could it be, like, negotiation skills?",
         "Teacher: Yes, you need to communicate and negotiate with your fellow teammates. You also develop trust as you work together with others to achieve a common aim or goal, and all these skills are ones that come in handy in other areas of your life as well as in sport. So you can see that there are many all-round benefits to being in a team. However, perhaps, at the end of the day, the most important point is that you choose a sport you actually like, regardless of whether it's an individual or team sport."
-      ]
+      ],
+      "properNouns": []
     },
     {
       "id": "c1-fear-factor",
@@ -1393,6 +1995,12 @@
         "Ben: OK, yeah, and lifts. I hate getting inside lifts. I'll always take the stairs if I can. I don't know, they just make me feel uneasy. And, well, I get really nervous if I ever have to speak in public. I start sweating and my mind just goes blank. It's so embarrassing ... that's pretty normal, isn't it?",
         "Liz: Of course!",
         "Abi: Sure."
+      ],
+      "properNouns": [
+        "Jan",
+        "Ben",
+        "Liz",
+        "Abi"
       ]
     },
     {
@@ -1407,6 +2015,13 @@
         "You probably know that X-rays were discovered in 1895, and were developed for limited medical use in the following year. But their use became much more widespread during the war, when they helped detect fragments of bombs and bullets buried in tissue. They allowed doctors to extract these elements, which would otherwise have caused serious infections. Stretchers for carrying injured people had also been in use before the war, but the development of rescuing the wounded from the battlefield, by sending in stretcher-bearers to bring them back as quickly as possible, was completely new. The modern concept of a paramedic, who is able to apply first aid in the field, also comes from this time.",
         "Blood transfusion was in its early days at the time of the Great War. It was done person-to-person, that is, with a tube transferring blood from one person to another. This was extremely impractical and carried a very high risk. The rigours of the war demanded a better solution and by 1917 indirect transfusion had been developed. It was possible to store blood on ice for up to 26 days and deal much better with battle injuries. For many, this was the most significant medical breakthrough of the war.",
         "The war also saw advances in treating wounds which demanded that the patient be unconscious while undergoing procedures. In 1917 the anaesthetist Henry Boyle invented a machine which could provide a steady flow of oxygen, nitrous oxide and ether, and this provided the basis of all the anaesthesia machines that followed. Operations without pain – a wonderful innovation, I'm sure you'll agree.\n\nSo the next time you have an X-ray, donate blood or undergo an operation, spare a thought for those doctors, nurses, researchers and patients back at the time of World War I – we owe them a lot!"
+      ],
+      "properNouns": [
+        "Europe",
+        "First World War",
+        "World War",
+        "Great War",
+        "Henry Boyle"
       ]
     }
   ]

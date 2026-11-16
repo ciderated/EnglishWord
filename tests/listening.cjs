@@ -17,7 +17,7 @@ function wav(){const data=Buffer.alloc(44+16000*2*12);data.write('RIFF');data.wr
   await context.route('https://learnenglishteens.britishcouncil.org/**',r=>{const body=wav(),range=r.request().headers()['range'];if(range){const m=/bytes=(\d+)-(\d*)/.exec(range),start=Number(m[1]),end=m[2]?Math.min(Number(m[2]),body.length-1):body.length-1;return r.fulfill({status:206,contentType:'audio/wav',headers:{'Accept-Ranges':'bytes','Content-Range':`bytes ${start}-${end}/${body.length}`},body:body.subarray(start,end+1)});}return r.fulfill({contentType:'audio/wav',headers:{'Accept-Ranges':'bytes'},body});});
   await page.goto(base+'/#listening');await page.waitForSelector('.lesson-row');
   assert.equal(await page.locator('.lesson-row').count(),2);
-  for(const level of levels){await page.locator(`.listening-levels a[href="#listening/${level}"]`).click();await page.waitForSelector('.lesson-row');assert.match(await page.locator('.lesson-row').first().innerText(),new RegExp(level));}
+  for(const level of levels){await page.locator(`.listening-levels a[href="#listening/${level}"]`).click();await page.waitForFunction(level=>document.querySelector('.lesson-row')?.textContent.includes(level),level);assert.match(await page.locator('.lesson-row').first().innerText(),new RegExp(level));}
   await page.fill('#lesson-search','recording 2');assert.equal(await page.locator('.lesson-row:visible').count(),1);
   await page.fill('#lesson-search','missing');assert.equal(await page.locator('.lesson-row:visible').count(),0);assert.equal(await page.locator('#lesson-no-results').isVisible(),true);
   await page.fill('#lesson-search','');await page.locator('.lesson-row').first().click();await page.waitForSelector('#dictation-text');
